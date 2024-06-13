@@ -1,0 +1,1960 @@
+user name: jbonn
+user id: 37
+file language: quechua
+file format: plain_text
+speaker: Doris_Loayza
+total sentences: 48
+elan file: file:///D:/Classes/Field Methods/transcriptions/2-8-21-JBonn.eaf
+date/time: Wednesday, April 21, 2021, 12:06 PM
+
+# :: snt1
+#tx-f      huk runa perata palleka .
+#tk         1      2       3           4
+#tx        huk    runa  perata      pallayka    .
+#mb        huk    runa  pera-ta     palla-yka   .
+#ge        one    man   pear-OBJ    pick-CONT   .
+#ps
+#tr       'A man is picking pears.' 
+
+# sentence level graph:
+(s1p / pallay-00
+      :actor (s1r / runa
+            :refer-number Singular)
+      :undergoer (s1p2 / pera
+            :refer-number Plural)
+      :Aspect Activity
+      :MODSTR FullAff)
+
+# alignment:
+s1p: 
+s1r: 
+s1p2: 
+s1n: 
+
+# document level annotation:
+(s1s0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref ((DCT :overlap s1p)))
+
+
+
+
+# :: snt2
+#tx-f      huk pera patsaman ishkishqa .
+#tk         1      2       3            4             5
+#tx        huk    pera  patsaman    ishkishqa         .
+#mb        huk    pera  patsa-man   ishki-shqa        .
+#ge        one    pear  ground-ALL  fall-PST.NAR      .
+#ps
+#tr       'A pear fell to the ground.'
+
+# sentence level graph:
+(s2i2 / ishkay-00 
+      :theme (s2p / pera
+            :refer-number Singular)
+      :goal (s2p2 / patsa)
+      :Aspect Directed Achievement
+      :MODSTR FullAff)
+
+# alignment:
+s2i2: 
+s2p: 
+s2p2: 
+
+# document level annotation:
+(s2s0 / sentence
+      :temporal ((s2i2 :contains s1p))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s2i2))
+      :coref ((s1p2 :subset-of s2p)))
+
+
+
+
+# :: snt3
+#tx-f      runaqa , uh , uh ,  patsaman yar- , uh , yarpushqa
+#tk          1              2           3
+#tx        runaqa       patsaman    yarpushqa         .
+#mb        runa-qa      patsa-man   yarpu-shqa        .
+#ge        man-TOP      ground-ALL  go_down-PST.NAR   .
+#ps
+#tr       'The man went down to the ground.'
+
+# sentence level graph:
+(s3y / yarpuy-00 
+      :actor (s3r / runa
+            :refer-number Singular)
+      :goal (s3p / patsa)
+      :Aspect Incremental Accomplishment
+      :MODSTR FullAff)
+
+# alignment:
+s3y: 
+s3r: 
+s3p: 
+
+# document level annotation:
+(s3s0 / sentence
+      :temporal ((s2i2 :after s3y))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s3y))
+      :coref ((s3p :same-entity s2p)
+            (s3p :same-entity s2p)
+            (s3r :same-entity s1r)))
+
+
+
+
+# :: snt4
+#tx-f      uh , patsaman yarpushqa , uh , tsepitaqa , um , perakunata kanastaman chureshqa
+#tk            1            2             3         4             5          6                7                 8             9
+#tx        patsaman     yarpushqa         ,     tsaypitaqa        ,     perakunata        kanastaman        churashqa         .
+#mb        patsa-man    yarpu-shqa        ,     tsaypita-qa       ,     pera-kuna-ta      kanasta-man       chura-shqa        .
+#ge        ground-ALL   go_down-PST.NAR   ,     after.that-TOP    ,     pear-PL-OBJ       basket-ALL        put-PST.NAR       .
+#ps
+#tr       'After going down to the ground, he put the pears into the basket.'
+
+# sentence level graph:
+(s4c / consecutive
+      :op1 (s4y / yarpuy-00 
+            :theme (s4p / person)                           #*pear man
+            :goal (s4p2 / patsa)                            #*ground
+            :Aspect Incremental Accomplishment
+            :MODSTR FullAff)
+      :op2 (s4c2 / churay-00 
+            :actor s4p
+            :theme (s4p3 / pera                             #*pears
+                  :refer-number Plural)
+            :goal (s4k / kanasta                            #*basket
+                  :refer-number Singular)
+            :Aspect Incremental Accomplishment
+            :MODSTR FullAff))
+
+
+# alignment:
+s4c: 
+s4y: 
+s4p: 
+s4p2: 
+s4c2: 
+s4p3: 
+s4k: 
+
+# document level annotation:
+(s4s0 / sentence
+      :temporal ((s4y :after s4c))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref ((s3y :same-event s4y)
+            (s1p2 :same-entity s4p)
+            (s3r :same-entity s4ii)))
+
+
+
+
+# :: snt5
+#tx-f      kanang , uh , tsepitaqa , uh , perakunata kanastaman churashqa
+#tk         1     2         3             4         5                 6                 7             8
+#tx        kanan  ,     tsaypitaqa        ,     perakunata        kanastaman        churashqa         .
+#mb        kanan  ,     tsaypita-qa       ,     pera-kuna-ta      kanasta-man       chura-shqa        .
+#ge        now    ,     after.that-TOP    ,     pear-PL-OBJ       basket-ALL        put-PST.NAR       .
+#ps
+#tr       'Now, after that, he put the pears into the basket.'
+
+# sentence level graph:
+(s5c / churay-00 
+      :actor (s5p / person)                           #*pear man
+      :theme (s5p2 / pera                             #*pears
+            :refer-number Plural)        
+      :goal (s5k / kanasta                            #*basket
+            :refer-number Singular)
+      :temporal (s5k2 / kanan)
+      :Aspect Incremental Accomplishment
+      :MODSTR FullAff)
+
+# alignment:
+s5c: 
+s5p: 
+s5p2: 
+s5k: 
+s5k2: 
+
+# document level annotation:
+(s5s0 / sentence
+      :temporal ((DCT :depends-on s5k)
+            (s4k :after s5k))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s5c))
+      :coref ((s4y :same-event s5ii2)
+            (s4c :same-event s5c)))
+
+
+
+
+# :: snt6
+#tx-f      tsepita , uh , huk perata , uhm , limpiashqa
+#tk            1         2      3             4             5
+#tx        tsaypita     huk   perata      limpiashqa        .
+#mb        tsaypita     huk   pera-ta     limpia-shqa       .
+#ge        after.that   one   pear-OBJ    clean-PST.NAR     .
+#ps
+#tr       'After that, he cleaned a pear.'
+
+# sentence level graph:
+(s6l / limpiar-00 
+      :actor (s6p / person)
+      :undergoer (s6p2 / pera 
+            :refer-number Singular)
+      :Aspect Incremental Accomplishment
+      :MODSTR FullAff)
+
+# alignment:
+s6l: 4-4
+s6p: 0-0
+s6p2: 3-3
+
+# document level annotation:
+(s6s0 / sentence
+      :temporal ((s5c :after s6l))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s6l))
+      :coref ((s5p :same-entity s6p)
+            (s4p :subset-of s6p2)))
+
+
+
+
+# :: snt7
+#tx-f      huk perata , uh , panuelo:ngwa ... panuelo ... panuelo:ngwan limpyashqa
+#tk         1        2             3                            4             5
+#tx        huk    perata      panuelonwan                   limpiashqa        .
+#mb        huk    pera-ta     panuelo-n-wan                 limpia-shqa       .
+#ge        one    pear-OBJ    handkerchief-3.POSS-COM       clean-PST.NAR     .
+#ps
+#tr       'He cleaned a pear with his handkerchief.'
+
+# sentence level graph:
+(s7l / limpiar-00 
+      :actor s7p3
+      :undergoer (s7p / pera
+            :refer-number Singular)
+      :instrument (s7p2 / panuelo
+            :poss (s7p3 / person 
+                  :refer-person 3rd
+                  :refer-number Singular))
+      :Aspect Incremental Accomplishment
+      :MODSTR FullAff)
+
+# alignment:
+s7l: 4-4
+s7p: 2-2
+s7p2: 3-3
+s7p3: 3-3
+
+# document level annotation:
+(s7s0 / sentence
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s7l))
+      :coref ((s6l :same-event s7l)
+            (s6p :same-entity s7p3)))
+
+
+
+
+# :: snt8
+#tx-f      tsepitaqa panuelonta ... hm , panuelonta , uh , kunkanman , uh , watashqa
+#tk            1                   2                             3               4              5
+#tx        tsaypitaqa         panuelonta                    kunkanman         watashqa          .
+#mb        tsaypita-qa        panuelo-n-ta                  kunka-n-man       wata-shqa         .
+#ge        after.that-TOP     handkerchief-3.POSS-OBJ       neck-3.POSS-ALL   knot-PST.NAR      .
+#ps
+#tr       'After that, he knotted his handkerchief onto his neck.'
+
+# sentence level graph:
+(s8w / watay-00 
+      :actor s8p2
+      :undergoer (s8p / panuelo
+            :refer-number Singular
+            :poss (s8p2 / person 
+                  :refer-person 3rd
+                  :refer-number Singular))
+      :goal (s8k / kunka
+            :Part-of s8p2
+            :refer-number Singular)
+      :Aspect Incremental Accomplishment
+      :MODSTR FullAff)
+
+# alignment:
+s8w: 4-4
+s8p: 2-2
+s8p2: 2-2
+s8k: 3-3
+
+# document level annotation:
+(s8s0 / sentence
+      :temporal ((s7l :after s8w))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s8w))
+      :coref ((s7p3 :same-entity s8p2)
+            (s7p2 :same-entity s8p)))
+
+
+
+
+# :: snt9
+#tx-f      watataqa , uh , limpiakushqa
+#tk        1                  2     3                       4
+#tx        watataqa           ,     limpiakushqa            .
+#mb        wata-ta-qa         ,     limpia-ku-shqa          .
+#ge        knot-OBJ-TOP       ,     clean-MID-PST.NAR       .
+#ps
+#tr       'The knot, then he cleaned.'
+
+# sentence level graph:
+(s9c / consecutive
+      :op1 (s9w / watay-00
+            :Aspect Process
+            :MODSTR FullAff)
+      :op2 (s9l / limpiar-00 
+            :actor (s9p / person)
+            :undergoer (s9t / thing)
+            :Aspect Process
+            :MODSTR FullAff))
+
+# alignment:
+s9c: 0-0
+s9w: 1-1
+s9l: 3-3
+s9p: 0-0
+s9t: 0-0
+
+# document level annotation:
+(s9s0 / sentence
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s9w)
+            (AUGH :FullAff s9l))
+      :coref ((s8w :same-event s9w)
+            (s8l :same-event s9l)
+            (s8p2 :same-entity s9p)))
+
+
+
+
+# :: snt10
+#tx-f      tsepitaqa sha:rishqa
+#tk        1                  2                 3
+#tx        tsaypitaqa         sharishqa         .
+#mb        tsaypita-qa        shari-shqa        .
+#ge        after.that-TOP     stand.up-PST.NAR  .
+#ps
+#tr       'After that, he stood up.'
+
+# sentence level graph:
+(s10s / shariy-00 
+      :actor (s10p / person)
+      :Aspect Performance
+      :MODSTR FullAff)
+
+# alignment:
+s10s: 2-2
+s10p: 0-0
+
+# document level annotation:
+(s10s0 / sentence
+      :temporal ((s9l :after s10s))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s10s))
+      :coref ((s9p :same-entity s10p)))
+
+
+
+
+# :: snt11
+#tx-f      sharikuskirqa , yarkushqa
+#tk        1                        2     3                 4
+#tx        sharikuskirqa            ,     yarkushqa         .
+#mb        shari-ku-ski-r-qa        ,     yarku-shqa        .
+#ge        stand.up-MID-PFV-SS-TOP  ,     go.up-PST.NAR     .
+#ps
+#tr       'After he stood up, he went up.'
+
+# sentence level graph:
+(s11c / consecutive
+      :op1 (s11s / shariy-00 
+            :actor s11p
+            :undergoer s11p
+            :Aspect Performance
+            :MODSTR FullAff)
+      :op2 (s11y / yarkuy-00 
+            :actor (s11p / person)
+            :Aspect Performance
+            :MODSTR FullAff))
+
+# alignment:
+s11c: 0-0
+s11s: 1-1
+s11y: 3-3
+s11p: 0-0
+
+# document level annotation:
+(s11s0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s11s)
+            (AUTH :FullAff s11y))
+      :coref ((s10s :same-event s11s)
+            (s9p :same-entity s11p)))
+
+
+
+
+# :: snt12
+#tx-f      pe, yarguit, ya, pe... yarkikapting huk runa kabranwan pasashqa
+#tk        1      2                       3     4     5                 6                 7
+#tx        pay    yarkikaptinqa           huk   runa  kawranwan         pasashqa          .
+#mb        pay    yarku-yka-pti-nqa       huk   runa  kawra-n-wan       pasa-shqa         .
+#ge        he     go.up-CONT-DS-FUT.3     one   man   goat-3.POSS-COM   cross-PST.NAR     .
+#ps
+#tr       'While he was going up, a man crossed with his goat.'
+
+# sentence level graph:
+(s12p / pasar-00 
+      :actor (s12r / runa                                #*goat man
+            :refer-number Singular)
+      :companion (s12k / kawra                           #*goat
+            :poss s12r)
+      :temporal (s12y / yarkuy-00
+            :actor (s12p2 / person                       #*pear man
+                  :refer-person 3rd
+                  :refer-number Singular) 
+            :Aspect Atelic Process
+            :MODSTR FullAff)
+      :Aspect Performance
+      :MODSTR FullAff)
+
+# alignment:
+s12p: 6-6
+s12r: 4-4
+s12k: 5-5
+s12y: 2-2
+s12p2: 1-1
+
+# document level annotation:
+(s12s0 / sentence
+      :temporal ((s12y overlap s12p))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s12p)
+            (AUTH :FullAff s12y))
+      :coref ((s11y :same-event s12y)
+            (s11p :same-entity s12p2)))
+
+
+
+
+# :: snt13
+#tx-f      uhm  tse runa, uh, yakuman eywey... eywashqa
+#tk        1      2     3           4           5
+#tx        tsay   runa  yakuman     aywashqa    .
+#mb        tsay   runa  yaku-man    aywa-shqa   .
+#ge        then   man   water-ALL   go-PST.NAR  .
+#ps
+#tr       'Then the man went to the water.'
+
+# sentence level graph:
+(s13a / ayway-00 
+      :actor (s13r / runa
+            :refer-person 3rd
+            :refer-number Singular)
+      :goal (s13y / yaku)
+      :Aspect Performance
+      :MODSTR FullAff)
+
+# alignment:
+s13a: 4-4
+s13r: 2-2
+s13y: 3-3
+
+# document level annotation:
+(s13s0 / sentence
+      :temporal ((s12p :after s13a)
+            (s12y :after s13a))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s13a))
+      :coref ((s12r :same-entity s13r)))
+
+
+
+
+# :: snt14
+#tx-f      tsepitaqa runa, uh, perata, uh, atska perata, pallashqa
+#tk        1                  2     3           4     5           6           7     8                 9
+#tx        tsaypitaqa         runa  perata      ,     atska       perata      ,     pallashqa         .
+#mb        tsaypita-qa        runa  pera-ta     ,     atska       pera-ta     ,     palla-shqa        .
+#ge        after.that-TOP     man   pear-OBJ    ,     many        pear-OBJ    ,     pick-PST.NAR      .
+#ps
+#tr       'After that, the man picked pears, many pears.'
+
+# sentence level graph:
+(s14p / pallay-00 
+      :actor (s14r / runa
+            :refer-number Singular)
+      :undergoer (s14p2 / pera
+            :quant (s14a / atska))
+      :Aspect Performance
+      :MODSTR FullAff)
+
+# alignment:
+s14p: 8-8
+s14r: 2-2
+s14p2: 6-6
+s14a: 5-5
+
+# document level annotation:
+(s14s0 / sentence
+      :temporal ((s13a :after s14p))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff s14r))
+      :coref ((s13r :same-entity s14r)))
+
+
+
+
+# :: snt15
+#tx-f      atska perata pallekapting huk wamra bisikletayoq shamushqa
+#tk        1      2           3                       4     5           6                 7                 8
+#tx        atska  perata      pallekaptinq            huk   wamra       bisiklitayoq      shamushqa         .
+#mb        atska  pera-ta     palla-yka-pti-nqa       huk   wamra       bisikleta-yoq     shamu-shqa        .
+#ge        many   pear-OBJ    pick-CONT-DS-FUT.3      one   boy         bicycle-HAVE      arrive-PST.NAR    .
+#ps
+#tr       'While he was picking many pears, a boy with a bicycle arrived.'
+
+# sentence level graph:
+(s15s / shamuy-00 
+      :actor (s15w / wamra
+            :refer-number Singular
+            :Poss-of (s15b / bisiklita
+                  :refer-number Singular))
+      :temporal (s15p / pallay-00 
+            :actor (s15p2 / person
+                  :refer-person 3rd
+                  :refer-number Singular)
+            :undergoer (s15p3 / pera
+                  :quant (s15a / atska))
+            :Aspect Activity
+            :MODSTR FullAff)
+      :Aspect Directed Achievement
+      :MODSTR FullAff)
+
+# alignment:
+
+# document level annotation:
+(s15s0 / sentence
+      :temporal ((s15s :contains s15p))
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref ((s14p :same-event s15p)
+            (s14p2 :same-entity s15p2)))
+
+
+
+
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.16
+\spk Doris_Loayza
+#tx-f      uh, tse wambra bisikletanta patsaman churaskir, uh, huk, uh, lasaq kanastata... huk lasaq kanastata... uhm, bisikletanman churashqa
+#tx        tsay wamra bisiklitanta patsaman churaskir, huk lasaq kanastata bisiklitanman churashqa
+#mb        tsay wamra bisiklita-n-ta patsa-man chura-ski-r, huk lasaq kanasta-ta bisiklita-n-man chura-shqa
+#ge        then boy bicycle-3.POSS-OBJ ground-ALL put-PFV-SS one heavy basket-OBJ bicycle-3.POSS-ALL put-PST.NAR
+#ps
+#tr       'Then, after the boy put his bicycle on the ground, he put the heavy basket on his bicycle.'
+\umr       (c / churay-00 
+                 :Aspect Performance
+                 :actor (w / wamra)
+                 :theme (k / kanasta :quant 1
+                       :mod (l / lasaq))
+                 :goal (b / bisiklita
+                       :poss w))
+                 :temporal (t / tsay)
+                 :temporal (a / after
+                       :op1 (c2 / churay-00 
+                             :Aspect Performance
+                             :actor w
+                             :theme b
+                             :goal (p / patsa)
+                             :MODSTR FullAff))
+                 :MODSTR FullAff
+                 :temporal (b2 / before :op1 (n / now)))
+           (s16 / sentence
+                 :coref ((s16w :same-entity s15w)
+                         (s16b :same-entity s15b)
+                         (s16p :same-entity s4p2))
+                 :temporal ((s16c :after s16c2)
+                            (s16c2 :after s15s))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.17
+\spk Doris_Loayza
+#tx-f      kanastata bisikletanman chureskir, eywakushqa
+#tx        kanastata bisiklitanman churaskir aywakushqa
+#mb        kanasta-ta bisiklita-n-man chura-ski-r aywa-ku-shqa
+#ge        basket-OBJ bicycle-3.POSS-ALL put-PFV-SS leave-MID-PST.NAR
+#ps
+#tr       'After he put the basket onto his bicycle, he left.'
+\umr       (a / ayway-00 
+                 :Aspect Performance
+                 :actor p
+                 :theme p
+                 :temporal (a2 / after
+                       :op1 (c / churay-00 
+                             :Aspect Performance
+                             :actor p
+                             :theme (k / kanasta)
+                             :goal (b / bisiklita
+                                   :poss (p / person :refer-person 3rd))
+                             :MODSTR FullAff))
+                 :MODSTR FullAff
+                 :temporal (b2 / before :op1 (n / now)))
+           (s17 / sentence
+                 :coref ((s17c :same-event s16c)
+                         (s17p :same-entity s16w)
+                         (s17k :same-entity s16k)
+                         (s17b :same-entity s16b)
+                 :temporal ((s17a :after s17c))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.18
+\spk Doris_Loayza
+#tx-f      tse wamra, uhm, bisikletangwan eywakikaptinga na:nichu
+#tx        tsay wamra bisiklitanwan aywakikaptinqa nanichu
+#mb        tsay wamra bisiklita-n-wan eywa-ku-yka-pti-nqa nani-chu
+#ge        then boy bicycle-3.POSS-COM leave-MID-CONT-DS-FUT.3 path-LOC
+#ps
+#tr       'Then the boy is leaving with his bicycle on the path.'
+\umr       (a / ayway-00 
+                 :Aspect Atelic Process
+                 :actor (w / wamra)
+                 :theme w
+                 :other (b / bisiklita
+                       :poss w))
+                 :path (n / nani)
+                 :temporal (t / tsay)
+                 :MODSTR FullAff
+                 :temporal (n2 / now))
+           (s18 / sentence
+                 :coref ((s18w :same-entity s17p
+                         (s18b :same-entity s17b))
+                 :temporal ((s18a :after s17a))
+                 :modal (())))
+**I love how the :Aspect annotation and :temporal annotation for s17 and s18 instances 
+of ayway-00 show that s18 is a leaving achievement, where the achievement marks the 
+onset of a going process event.
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.19
+\spk Doris_Loayza
+#tx-f      tse na:nichu huk wambrawan tinkushqa
+#tx        tsay nanichu huk wamrawan tinkushqa
+#mb        tsay nani-chu huk wamra-wan tinku-shqa
+#ge        then path-LOC one child-COM cross.paths-PST.NAR
+#ps
+#tr       'Then on the path he crossed paths with a child.'
+\umr       (t / tinkuy-00 
+                 :Aspect Performance
+                 :actor (ii / implicit)
+                 :companion (w / wamra :quant 1)
+                 :place (n / nani)
+                 :temporal (t2 / tsay)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n2 / now)))
+           (s19 / sentence
+                 :coref ((s19n :same-entity s18n)
+                         (s19ii :same-entity s18w))
+                 :temporal ((s19t :contained s18a))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.20
+\spk Doris_Loayza
+#tx-f      tse wamra peta tanqashqa, 'tanqashqa' push
+#tx        tsay wamra payta tanqashqa
+#mb        tsay wamra pay-ta tanqa-shqa
+#ge        then child he-OBJ push-PST.NAR
+#ps
+#tr       'Then the child pushed him.'
+\umr       (t / tanqay-00 
+                 :Aspect Directed Achievement
+                 :actor (w / wamra)
+                 :undergoer (p / pay)
+                 :temporal (t2 / tsay)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s20 / sentence
+                 :coref ((s20w :same-entity s19w)
+                         (s20p :same-entity s19ii))
+                 :temporal ((s20t :after s19t))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.21
+\spk Doris_Loayza
+#tx-f      wamrantsiqa patsaman ishkishqa
+#tx        wamrantsiqa patsaman ishkishqa
+#mb        wamra-ntsi-qa patsa-man ishki-shqa
+#ge        boy-1.PL.INCL-TOP ground-ALL fall-PST.NAR
+#ps
+#tr       'Our boy fell to the ground.'
+\umr       (i2 / ishkiy-00 
+                 :Aspect Directed Achievement
+                 :theme (w / wamra
+                       :ARG0-of (h / have-rel-role-91
+                             :ARG1 (p / person :refer-person 1st 
+                              :refer-number Plural-INCL)))
+                 :goal (p2 / patsa)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s21 / sentence
+                 :coref ((s21w :same-entity s20p)
+                         (s21p2 :same-entity s16p))
+                 :temporal ((s21i2 :after s20t))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.22
+\spk Doris_Loayza
+#tx-f      kanastaman perayoqpis patsaman ishkishqa
+#tx        kanastaman perayoqpis patsaman ishkishqa
+#mb        kanasta-man pera-yoq-pis patsa-man ishkiy-shqa
+#ge        basket-ALL pear-HAVE-EVEN ground-ALL fall-PST.NAR
+#ps
+#tr       'The basket of pears also fell to the ground.'
+\umr       (a / and
+                 :op2 (i2 / ishkiy-00 
+                       :Aspect Directed Achievement
+                       :theme (k / kanasta
+                             :ARG0-of (h / have-03
+                                   :ARG1 (p2 / pera)))
+                 :goal (p / patsa))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s22 / sentence
+                 :coref ((s22k :same-entity s17k)
+                         (s22p2 :same-entity s5p)
+                         (s22p :same-entity s21p2))
+                 :temporal ((s22i2 :overlap s21i2)
+                            (s22i2 :after s20t))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.23
+\spk Doris_Loayza
+#tx-f      tsellapi, (just right there) kimsa wamrakuna chayamushqa
+#tx        tsayllapi kimsa wamrakuna chayamushqa
+#mb        tsayllapi kimsa wamra-kuna chaya-mu-shqa
+#ge        in.this.moment three boy-PL arrive-FAR-PST.NAR
+#ps
+#tr       'Just then, three boys arrived from afar.'
+\umr       (c / chayay-00 
+                 :Aspect Directed Achievment
+                 :actor (w / wamra :refer-number Plural :quant 3)
+                 :temporal (t / tsayllapi)
+                 :source (f / far)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s23 / sentence
+                 :coref (())
+                 :temporal ((s23c :contained s23t)
+                            (s23t :overlap :s22i2))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.24
+\spk Doris_Loayza
+#tx-f      alli wambrakuna, uh, wambrantsita yanapayashqa
+#tx        alli wamrakuna wamrantsita yanapayashqa
+#mb        alli wamra-kuna wamra-ntsi-ta yanapa-ya-shqa
+#ge        good boy-PL boy-1.PL.INCL-OBJ help-PL.V-PST.NAR
+#ps
+#tr       'Good boys helped our boy.'
+\umr       (y / yanapay-00 
+                 :Aspect Performance
+                 :actor (w / wamra :refer-number Plural
+                       :mod (a / alli))
+                 :theme (ii / implicit)
+                 :affectee (w2 / wamra
+                       :ARG0-of (h / have-rel-role-91
+                             :ARG1 (p / person :refer-person 1st :refer-number Plural-INCL)))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s24 / sentence
+                 :coref ((s24w :same-entity s23w)
+                         (s24w2 :same-entity s21w))
+                 :temporal ((s24y :after s23c))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.25
+\spk Doris_Loayza
+#tx-f      yapapayashqa, uh, kimsankuna perakunata kanastaman kutichiyashqa
+#tx        yanapayashqa kimsankuna perakunata kanastaman kutitsiyashqa
+#mb        yanapa-ya-shqa kimsa-n-kuna pera-kuna-ta kanasta-man kutitsi-ya-shqa
+#ge        help-PL.V-PST.NAR three-3-PL pear-PL-OBJ basket-ALL return-PL.V-PST.NAR
+#ps
+#tr       'They helped; the three returned the pears to the basket.'
+\umr       (y / yanapay-00 
+                 :Aspect Performance
+                 :actor p
+                 :theme (k / kutitsiy-00 
+                       :Aspect Performance
+                       :actor (p / person :refer-person 3rd :refer-number Plural :quant 3)
+                       :theme (p2 / pera :refer-number Plural)
+                       :goal (k2 / kanasta))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s25 / sentence
+                 :coref ((s25y :same-event s24y)
+                         (s25k :subset-of s25y)
+                         (s25p :same-entity s24w)
+                         (s25p2 :same-entity s22p2)
+                         (s25k2 :same-entity s22k))
+                 :temporal ((s25k :contained s25y))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.26
+\spk Doris_Loayza
+#tx-f      uh, pekuna, uh, perakunata kanastaman kutichiyashqa
+#tx        paykuna perakunata kanastaman kutitsiyashqa
+#mb        paykuna pera-kuna-ta kanasta-man kutitsi-ya-shqa
+#ge        they pear-PL-OBJ basket-ALL return-PL.V-PST.NAR
+#ps
+#tr       'They returned the pears to the basket.'
+\umr       (k / kutitsiy-00 
+                 :Aspect Performance
+                 :actor (p / pay :refer-number Plural)
+                 :theme (p2 / pera :refer-number Plural)
+                 :goal (k2 / kanasta)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s26 / sentence
+                 :coref ((s26k :same-event s25k)
+                         (s26p :same-entity s25p)
+                         (s26p2 :same-entity s25p2)
+                         (s26k2 :same-entity s25k2))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.27
+\spk Doris_Loayza
+#tx-f      ichik wambra
+#tx        ichik wamra
+#mb        ichik wamra
+#ge        small boy
+#ps
+#tr       'a small boy'
+\umr       (h / have-mod-91 
+                 :Aspect State
+                 :ARG0 (w / wamra)
+                 :ARG1 (i2 / ichik)
+                 :MODSTR FullAff)
+           (s27 / sentence
+                 :coref (())
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.28
+\spk Doris_Loayza
+#tx-f      Ishkankuna, ishke wamra, uh, kanastata, uh, bisikletaman kutichiyashqa
+#tx        Iskankuna, iskay wamra, kanastata bisiklitaman kutichiyashqa
+#mb        iska-n-kuna iskey wamra kanasta-ta bisiklita-man kutitsi-ya-shqa
+#ge        two-3-PL two child basket-OBJ bicycle-ALL return-PL.V-PST.NAR
+#ps
+#tr       'The two, two children, returned the basket to the bicycle.'
+\umr       (k / kutitsiy-00 
+                 :Aspect Performance
+                 :actor (w / wamra :refer-number Plural :quant 2)
+                 :theme (k2 / kanasta)
+                 :goal (b / bisiklita)
+                 :MODSTR FullAff
+                 :temporal (b2 / before :op1 (n / now)))
+           (s28 / sentence
+                 :coref ((s28k :subset-of s25y)
+                         (s28w :subset-of s26p)
+                         (s28k2 :same-entity s26k2)
+                         (s28b :same-entity s18b))
+                 :temporal ((s28k :after s26k))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.29
+\spk Doris_Loayza
+#tx-f      ichik wamra, rumita, nanipita uh rumita, um... rumita , we'll say, rumita, uh, hitashqa
+#tx        ichik wamra nanipita rumita hitashqa
+#mb        ichik wamra nani-pita rumi-ta hita-shqa
+#ge        small boy path-ABL stone-OBJ throw.away-PST.NAR
+#ps
+#tr       'The small boy threw the stone away from the path.'
+\umr       (h / hitay-00 
+                 :Aspect Performance
+                 :actor (w / wamra
+                       :mod (i2 / ichik))
+                 :theme (r / rumi)
+                 :source (n / nani)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n2 / now)))
+           (s29 / sentence
+                 :coref ((s29w :same-entity s27w)
+                         (s29n :same-entity s19n))
+                 :temporal ((s29h :after s28k))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.30
+\spk Doris_Loayza
+#tx-f      tsepitaqa, uh, wambrantsi, uh, eywakush-  uh, eywakushqa
+#tx        tsaypitaqa, wamrantsi aywakushqa
+#mb        tsaypita-qa wamra-ntsi aywa-ku-shqa
+#ge        after.that-TOP boy-1.PL.INCL leave-MID-PST.NAR
+#ps
+#tr       'After that, our boy left.'
+\umr       (a / ayway-00
+                 :Aspect Achievement
+                 :actor (w / wamra
+                       :ARG0-of (h / have-rel-role-91
+                             :ARG1 (p / person :refer-person 1st :refer-number Plural-INCL)))
+                 :theme w
+                 :temporal (t / tsaypita
+                       :op1 (ii / implicit))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s30 / sentence
+                 :coref ((s30ii :same-event s29h)
+                         (s30w :same-entity s24w2))
+                 :temporal ((s30a :after s29h))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.31
+\spk Doris_Loayza
+#tx-f      kimsa wamra eywakikayapting wambrantsipa tsukunta tariyashqa
+#tx        kimsa wamra aywakikayaptinqa wamrantsipa tsukunta tariyashqa
+#mb        kimsa wamra aywa-ku-yka-ya-pti-nqa wamra-ntsi-pa tsuku-n-ta tari-ya-shqa
+#ge        three boy leave-MID-CONT-3.PL-DS-FUT.3 boy-1.PL.INCL-GEN hat-3.POSS-OBJ find-3.PL-PST.NAR
+#ps
+#tr       'When the three children were leaving, they found our boy’s hat.'
+\umr       (t / tariy-00 
+                 :Aspect Achievement
+                 :actor w2
+                 :theme (t2 / tsuku
+                       :poss w)
+                 :affectee (w / wamra
+                       :ARG0-of (h2 / have-rel-role-91
+                             :ARG1 (p / person :refer-person 1st :refer-number Plural-INCL)))
+                 :temporal (a / ayway-00 
+                       :Aspect Atelic Process
+                       :actor (w2 / wamra :quant 3)
+                       :theme w2
+                       :MODSTR FullAff)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s31 / sentence
+                 :coref ((s31w2 :same-entity s26p)
+                         (s31w :same-entity s30w))
+                 :temporal ((s31t :contained s31a)
+                            (s31a :after s30a)
+                            (s31t :after s30a))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.32
+\spk Doris_Loayza
+#tx-f      uh, tariskirqa, uh, huk wamra wamrantsita qayashqa
+#tx        tariskirqa, huk wamra wamrantsita qayashqa
+#mb        tari-ski-r-qa, huk wamra wamra-ntsi-ta qaya-shqa
+#ge        find-PFV-SS-TOP one boy boy-1.PL.INCL-OBJ call-PST.NAR
+#ps
+#tr       'After finding it, one boy called to our boy.'
+\umr       (q / qayay-00 
+                 :Aspect Performance
+                 :actor (w / wamra :quant 1)
+                 :recipient (w2 / wamra
+                       :ARG0-of (h / have-rel-role-91
+                             :ARG1 (p / person :refer-person 1st :refer-number Plural-INCL)))
+                 :temporal (a / after
+                       :op1 (t / tariy-00 
+                             :Aspect Achievement
+                             :MODSTR FullAff))
+                 :MODSTR FullAff)
+           (s32 / sentence
+                 :coref ((s32t :same-event s31t)
+                         (s32w :subset-of s31w2)
+                         (s32w2 :same-entity s31w))
+                 :temporal ((s32q :after s32t))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.33
+\spk Doris_Loayza
+#tx-f      qayaskirqa tsukunta apapushqa
+#tx        qayaskirqa tsukunta apapushqa
+#mb        qaya-ski-r-qa tsuku-n-ta apapu-shqa
+#ge        call-PFV-SS-TOP hat-3.POSS-OBJ bring-PST.NAR
+#ps
+#tr       'After he called, he brought his hat.'
+\umr       (a / apapuy-00 
+                 :Aspect Performance
+                 :actor (ii / implicit)
+                 :theme (t / tsuku
+                       :poss (p / person :refer-person 3rd))
+                 :recipient p
+                 :temporal (a2 / after
+                       :op1 (q / qayay-00 
+                             :Aspect Performance
+                             :MODSTR FullAff))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s33 / sentence
+                 :coref ((s33q :same-event s32q)
+                         (s33ii :same-entity s32w)
+                         (s33p :same-entity s32w2)
+                         (s33t :same-entity s31t2))
+                 :temporal ((s33a :after s33q))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.34
+\spk Doris_Loayza
+#tx-f      ahh-k. tse apapushqa, wamrantsiqa, uh, tsukunta chaskishqa
+#tx        tsay apapushqa, wamrantsiqa, tsukunta chaskishqa
+#mb        tsay apupu-shqa wamra-ntsi-qa tsuku-n-ta chaski-shqa
+#ge        then bring-PST.NAR boy-1.PL-incl-TOP hat-3.POSS-OBJ receive-PST.NAR
+#ps
+#tr       'After they brought it, our boy received his hat.'
+\umr       (c / chaskiy-00 
+                 :Aspect Performance
+                 :recipient (w / wamra
+                       :ARG0-of (h2 / have-rel-role-91
+                             :ARG1 (p / person :refer-person 1st :refer-number Plural-INCL)))
+                 :theme (t / tsuku
+                       :poss w)
+                 :temporal (t2 / tsay
+                       :op1 (a / apapuy-00 
+                       :Aspect Performance
+                       :MODSTR FullAff))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s34 / sentence
+                 :coref ((s34a :same-event s33a)
+                         (s34w :same-entity s33p)
+                         (s34t :same-entity s33t))
+                 :temporal ((s34c :after s34a))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.35
+\spk Doris_Loayza
+#tx-f      tsukunta chaskiskirqa, wamrata, uh, kimsa perata qushqa
+#tx        tsukunta chaskiskirqa, wamrata kimsa perata qushqa
+#mb        tsuku-n-ta chaski-ski-r-qa, wamra-ta, kimsa pera-ta qu-shqa
+#ge        hat-3.POSS-OBJ receive-PFV-SS-TOP boy-OBJ three pear-OBJ give-PST.NAR
+#ps
+#tr       'After he received the hat, he gave the boy three pears.'
+\umr       (q / quy-00 
+                 :Aspect Performance
+                 :actor p2
+                 :theme (p / pera :quant 3)
+                 :recipient (w / wamra)
+                 :temporal (a / after
+                       :op1 (c / chaskiy-00 
+                             :Aspect Performance
+                             :actor (p2 / person 
+                                    :refer-person 3rd)
+                             :theme (t / tsuku
+                                   :poss p2)
+                             :source w
+                             :MODSTR FullAff)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s35 / sentence
+                 :coref ((s35c :same-event s34c)
+                         (s35w :same-entity s32w)
+                         (s35p2 :same-entity s34w)
+                         (s35p :subset-of s26pw))
+                 :temporal ((s35q :after s35c))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.36
+\spk Doris_Loayza
+#tx-f      tse wamra amigonkunata qushqa huk perata
+#tx        tsay wamra amigonkunata qushqa huk perata
+#mb        tsay wamra amigo-n-kuna-ta qu-shqa huk pera-ta
+#ge        then boy friend-3.POSS-PL-OBJ give-PST.NAR pear-OBJ
+#ps
+#tr       'Then he gave his three friends a pear.'
+\umr       (q / quy-00 
+                 :Aspect Performance
+                 :actor (w / wamra)
+                 :theme (p / pera :quant 1)
+                 :recipient (p2 / person :refer-number Plural
+                       :ARG0-of (h / have-rel-role-91
+                             :ARG1 w
+                             :ARG2 (a / amigo)))
+                 :temporal (t / tsay)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s36 / sentence
+                 :coref (())
+                 :temporal ((s36q :after s35q))
+                 :modal (()))
+*check video for coref
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.37
+\spk Doris_Loayza
+#tx-f      kimsankuna perankunata mikikar eywakuyeshqa
+#tx        kimsankuna perankunata mikikar aywakuyashqa
+#mb        kimsa-n-kuna pera-n-kuna-ta miku-yka-r aywa-ku-ya-shqa
+#ge        three-3-PL pear-3.POSS-PL-OBJ eat-CONT-SS leave-MID-PL.V-PST.NAR
+#ps
+#tr       'The three of them, eating pears, left.'
+\umr       (a / ayway-00 
+                 :Aspect Performance
+                 :actor (p / person :refer-number Plural :refer-person 3rd :quant 3)
+                 :theme p
+                 :temporal (m / mikuy-00 
+                       :Aspect Atelic Activity
+                       :actor p
+                       :undergoer (p2 / pera :refer-number Plural
+                             :poss p)
+                       :MODSTR FullAff)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s37 / sentence
+                 :coref ((s37p :same-entity s36p2)
+                         (s37p2 :same-entity s35p))
+                 :temporal ((s37a :contained s37m)
+                            (s37m :after s36q))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.38
+\spk Doris_Loayza
+#tx-f      alright, so...  pera pallaqqa
+#tx        pera pallaqqa
+#mb        pera palla-q-qa
+#ge        pear pick-DOER-TOP
+#ps
+#tr       'the pear-picker'
+\umr       (p / person
+                 :actor-of (p2 / pallay-00 
+                       :Aspect Habitual
+                       :theme (p3 / pera))
+                       :MODSTR FullAff)
+           (s38 / sentence
+                 :coref ((s38p :same-entity s14r))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.39
+\spk Doris_Loayza
+#tx-f      pera pallaq runaqa, pera pallaq runaqa
+#tx        pera pallaq runaqa
+#mb        pera palla-q runa-qa
+#ge        pear pick-DOER man-TOP
+#ps
+#tr       'the man who picks pears'
+\umr       (r / runa
+                 :actor-of (p / pallay-00 
+                       :Aspect Habitual
+                       :theme (p2 / pera))
+                       :MODSTR FullAff)
+           (s39 / sentence
+                 :coref ((s39r :same-entity s38p))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.40
+\spk Doris_Loayza
+#tx-f      tse nanichu, pera pallaq runawan, pera pallaq runawan,  tinkuyeshqa
+#tx        tsay nanichu, pera pallaq runawan tinkuyashqa
+#mb        tsay nani-chu pera palla-q runa-wan tinku-ya-shqa
+#ge        then path-LOC pear pick-DOER man-COM cross.path-3.PL-PST.NAR
+#ps
+#tr       'Then on the path, they crossed paths with the pear-picker man.'
+\umr       (t / tinkuy-00 
+                 :Aspect Performance
+                 :actor (ii / implicit)
+                 :companion (r / runa
+                       :actor-of (p / pallay-00 
+                             :Aspect Habitual
+                             :theme (p2 / pera)))
+                 :place (n / nani)
+                 :temporal (t2 / tsay)
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n2 / now)))
+           (s40 / sentence
+                 :coref ((s40r :same-entity s39r)
+                         (s40n :same-entity s29n)
+                         (s40ii :same-entity s37p))
+                 :temporal ((s40t :after s37a))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.41
+\spk Doris_Loayza
+#tx-f      pekuna, wam- uh, kimsa wamra mana imatapas runata parlapayarqantsu
+#tx        paykuna, kimsa wamra, mana imatapas runata parlapayarqantsu
+#mb        paykuna, kimsa wamra, mana_imatapas runa-ta parla-pa-ya-rqa-n-tsu
+#ge        they three boys nothing man-OBJ say-BEN-PL.V-PST-3.V-NEG
+#ps
+#tr       they, the three boys, didn't say anything to the man
+\umr       (p / parlay-00 :polarity - 
+                 :Aspect Activity
+                 :actor (w / wamra :refer-number Plural :quant 3)
+                 :theme (i2 / imatapas)
+                 :recipient (r / runa)
+                 :MODSTR NEG
+                 :temporal (b / before :op1 (n / now)))
+           (s41 / sentence
+                 :coref ((s41w :same-entity s37p)
+                         (s41r :same-entity s39r))
+                 :temporal ((s41p :overlap s40t)
+                            (s41p :after s37a))
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.42
+\spk Doris_Loayza
+#tx-f      alli wambra kashqa uh
+#tx        alli wamra kashqa
+#mb        alli wamra ka-shqa
+#ge        good boy be.exist-PST.NAR
+#ps
+#tr       'There was a good boy.'
+\umr       (e / exist-91 
+                 :Aspect State
+                 :ARG0 (w / wamra
+                       :mod (a / alli))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s42 / sentence
+                 :coref ((s42w :same-entity s35p2))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.43
+\spk Doris_Loayza
+#tx-f      papan- uh, papaninta yanapashqa  what else?
+#tx        papaninta yanapashqa
+#mb        papa-nin-ta yanapa-shqa
+#ge        father-3.POSS-OBJ help-PST.NAR
+#ps
+#tr       'He helped his father.'
+\umr       (y / yanapay-00 
+                 :Aspect Habitual
+                 :actor (p / person)
+                 :affectee (p2 / person
+                       :ARG0-of (h / kinship-91
+                             :ARG1 p
+                             :ARG2 (p3 / papa)))
+                 :MODSTR FullAff
+                 :temporal (b / before :op1 (n / now)))
+           (s43 / sentence
+                 :coref ((s43p :same-entity s42w)
+                         (s43p2 :same-entity s41r))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.44
+\spk Doris_Loayza
+#tx-f      I will say, uh, pera pallaq runa, um, alli runa kan
+#tx        pera pallaq runa, alli runa kan
+#mb        pera palla-q runa alli runa ka-n
+#ge        pear pick-DOER man good man be-3
+#ps
+#tr       the pear picker man is a good man
+\umr       (h / have-mod-91 
+                 :Aspect State
+                 :ARG0 (r / runa
+                       :actor-of (p / pallay-00 
+                             :Aspect Habitual
+                             :theme (p2 / pera))
+                             :MODSTR FullAff)
+                 :ARG1 (r2 / runa
+                       :mod (a / alli))
+                 :MODSTR FullAff
+                 :temporal (n / now))
+           (s44 / sentence
+                 :coref ((s44r :same-entity s43p2))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.45
+\spk Doris_Loayza
+#tx-f      kimsa wamrakuna, um, pekuna yacha imanu uh yanapayeta uh, mayinkun- , wamramayinta
+#tx        kimsa wamrakuna, paykuna yacha imanu yanapayeta wamramayinta
+#mb        kimsa wamra-kuna paykuna yacha imanu yanapa-ya-ta wamra-mayi-n-ta
+#ge        three boy-PL they know how help-3.V-OBJ boy-SAME-3.POSS-OBJ
+#ps
+#tr       'The three boys know how to help other kids of the same age.'
+\umr       (y2 / yachay-00 
+                 :Aspect State
+                 :actor (w / wamra :refer-number Plural :quant 3)
+                 :theme (i2 / imanu
+                       :manner-of (y / yanapay-00 
+                             :Aspect Performance
+                             :actor w
+                             :affectee (w2 / wamra
+                                   :ARG0 (s / same-01
+                                         :ARG1 w
+                                         :ARG2 (w3 / wiña)))
+                             :MODSTR FullAff))
+                 :MODSTR FullAff
+                 :temporal (n / now))
+           (s45 / sentence
+                 :coref ((s45w :same-entity s41w)
+                         (s43p :subset-of s45w2))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
+
+\ref pear_story2.46
+\spk Doris_Loayza
+#tx-f      warmi wamra mana alli wamra, wamra
+#tx        warmi wamra mana alli wamra
+#mb        warmi wamra mana alli wamra
+#ge        girl child not good child
+#ps
+#tr       'The girl isn't a good child.'
+\umr       (h / have-mod-91 :polarity -
+                 :ARG0 (w2 / wamra
+                       :mod (w3 / wamri))
+                 :ARG1 (w4 / wamra
+                       :mod (a / alli))
+                 :MODSTR FullAff
+                 :temporal (n / now))
+           (s46 / sentence
+                 :coref ((s46w2 :same-entity s20w))
+                 :temporal (())
+                 :modal (()))
+# :: snt
+#tk         1
+# Sentence:  
+
+# sentence level graph:
+
+
+# alignment:
+
+# document level annotation:
+(ss0 / sentence
+      :temporal (())
+      :modal ((ROOT :MODAL AUTH)
+            (AUTH :FullAff ))
+      :coref (()))
+
+
+
+
+
