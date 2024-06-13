@@ -1,0 +1,3901 @@
+# :: snt1	
+	
+# sentence level graph:	
+(s1	
+	
+# alignment:	
+	
+# document level graph:	
+(s1s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt2	
+	
+# sentence level graph:	
+(s2	
+	
+# alignment:	
+	
+# document level graph:	
+(s2s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt3	
+	
+# sentence level graph:	
+(s3	
+	
+# alignment:	
+	
+# document level graph:	
+(s3s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt4	
+	
+# sentence level graph:	
+(s4	
+	
+# alignment:	
+	
+# document level graph:	
+(s4s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt5	
+	
+# sentence level graph:	
+(s5	
+	
+# alignment:	
+	
+# document level graph:	
+(s5s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt6	
+	
+# sentence level graph:	
+(s6	
+	
+# alignment:	
+	
+# document level graph:	
+(s6s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt7	
+	
+# sentence level graph:	
+(s7	
+	
+# alignment:	
+	
+# document level graph:	
+(s7s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt8	
+	
+# sentence level graph:	
+(s8	
+	
+# alignment:	
+	
+# document level graph:	
+(s8s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt9	
+	
+# sentence level graph:	
+(s9	
+	
+# alignment:	
+	
+# document level graph:	
+(s9s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt10	
+	
+# sentence level graph:	
+(s10	
+	
+# alignment:	
+	
+# document level graph:	
+(s10s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt11	
+	
+# sentence level graph:	
+(s11	
+	
+# alignment:	
+	
+# document level graph:	
+(s11s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt12	
+	
+# sentence level graph:	
+(s12	
+	
+# alignment:	
+	
+# document level graph:	
+(s12s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt13	
+	
+# sentence level graph:	
+(s13	
+	
+# alignment:	
+	
+# document level graph:	
+(s13s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt14	
+	
+# sentence level graph:	
+(s14	
+	
+# alignment:	
+	
+# document level graph:	
+(s14s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt15	
+	
+# sentence level graph:	
+(s15	
+	
+# alignment:	
+	
+# document level graph:	
+(s15s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt16	
+	
+# sentence level graph:	
+(s16	
+	
+# alignment:	
+	
+# document level graph:	
+(s16s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt17	
+	
+# sentence level graph:	
+(s17	
+	
+# alignment:	
+	
+# document level graph:	
+(s17s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt18	
+	
+# sentence level graph:	
+(s18	
+	
+# alignment:	
+	
+# document level graph:	
+(s18s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt19	
+	
+# sentence level graph:	
+(s19	
+	
+# alignment:	
+	
+# document level graph:	
+(s19s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt20	
+	
+# sentence level graph:	
+(s20	
+	
+# alignment:	
+	
+# document level graph:	
+(s20s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt21	
+	
+# sentence level graph:	
+(s21	
+	
+# alignment:	
+	
+# document level graph:	
+(s21s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt22	
+	
+# sentence level graph:	
+(s22	
+	
+# alignment:	
+	
+# document level graph:	
+(s22s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt23	
+	
+# sentence level graph:	
+(s23	
+	
+# alignment:	
+	
+# document level graph:	
+(s23s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt24	
+	
+# sentence level graph:	
+(s24	
+	
+# alignment:	
+	
+# document level graph:	
+(s24s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt25	
+	
+# sentence level graph:	
+(s25	
+	
+# alignment:	
+	
+# document level graph:	
+(s25s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt26	
+	
+# sentence level graph:	
+(s26	
+	
+# alignment:	
+	
+# document level graph:	
+(s26s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt27	
+	
+# sentence level graph:	
+(s27	
+	
+# alignment:	
+	
+# document level graph:	
+(s27s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt28	
+	
+# sentence level graph:	
+(s28	
+	
+# alignment:	
+	
+# document level graph:	
+(s28s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt29	
+	
+# sentence level graph:	
+(s29	
+	
+# alignment:	
+	
+# document level graph:	
+(s29s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt30	
+	
+# sentence level graph:	
+(s30	
+	
+# alignment:	
+	
+# document level graph:	
+(s30s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt31	
+	
+# sentence level graph:	
+(s31	
+	
+# alignment:	
+	
+# document level graph:	
+(s31s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt32	
+	
+# sentence level graph:	
+(s32	
+	
+# alignment:	
+	
+# document level graph:	
+(s32s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt33	
+	
+# sentence level graph:	
+(s33	
+	
+# alignment:	
+	
+# document level graph:	
+(s33s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt34	
+	
+# sentence level graph:	
+(s34	
+	
+# alignment:	
+	
+# document level graph:	
+(s34s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt35	
+	
+# sentence level graph:	
+(s35	
+	
+# alignment:	
+	
+# document level graph:	
+(s35s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt36	
+	
+# sentence level graph:	
+(s36	
+	
+# alignment:	
+	
+# document level graph:	
+(s36s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt37	
+	
+# sentence level graph:	
+(s37	
+	
+# alignment:	
+	
+# document level graph:	
+(s37s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt38	
+	
+# sentence level graph:	
+(s38	
+	
+# alignment:	
+	
+# document level graph:	
+(s38s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt39	
+	
+# sentence level graph:	
+(s39	
+	
+# alignment:	
+	
+# document level graph:	
+(s39s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt40	
+	
+# sentence level graph:	
+(s40	
+	
+# alignment:	
+	
+# document level graph:	
+(s40s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt41	
+	
+# sentence level graph:	
+(s41	
+	
+# alignment:	
+	
+# document level graph:	
+(s41s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt42	
+	
+# sentence level graph:	
+(s42	
+	
+# alignment:	
+	
+# document level graph:	
+(s42s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt43	
+	
+# sentence level graph:	
+(s43	
+	
+# alignment:	
+	
+# document level graph:	
+(s43s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt44	
+	
+# sentence level graph:	
+(s44	
+	
+# alignment:	
+	
+# document level graph:	
+(s44s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt45	
+	
+# sentence level graph:	
+(s45	
+	
+# alignment:	
+	
+# document level graph:	
+(s45s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt46	
+	
+# sentence level graph:	
+(s46	
+	
+# alignment:	
+	
+# document level graph:	
+(s46s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt47	
+	
+# sentence level graph:	
+(s47	
+	
+# alignment:	
+	
+# document level graph:	
+(s47s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt48	
+	
+# sentence level graph:	
+(s48	
+	
+# alignment:	
+	
+# document level graph:	
+(s48s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt49	
+	
+# sentence level graph:	
+(s49	
+	
+# alignment:	
+	
+# document level graph:	
+(s49s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt50	
+	
+# sentence level graph:	
+(s50	
+	
+# alignment:	
+	
+# document level graph:	
+(s50s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt51	
+	
+# sentence level graph:	
+(s51	
+	
+# alignment:	
+	
+# document level graph:	
+(s51s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt52	
+	
+# sentence level graph:	
+(s52	
+	
+# alignment:	
+	
+# document level graph:	
+(s52s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt53	
+	
+# sentence level graph:	
+(s53	
+	
+# alignment:	
+	
+# document level graph:	
+(s53s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt54	
+	
+# sentence level graph:	
+(s54	
+	
+# alignment:	
+	
+# document level graph:	
+(s54s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt55	
+	
+# sentence level graph:	
+(s55	
+	
+# alignment:	
+	
+# document level graph:	
+(s55s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt56	
+	
+# sentence level graph:	
+(s56	
+	
+# alignment:	
+	
+# document level graph:	
+(s56s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt57	
+	
+# sentence level graph:	
+(s57	
+	
+# alignment:	
+	
+# document level graph:	
+(s57s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt58	
+	
+# sentence level graph:	
+(s58	
+	
+# alignment:	
+	
+# document level graph:	
+(s58s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt59	
+	
+# sentence level graph:	
+(s59	
+	
+# alignment:	
+	
+# document level graph:	
+(s59s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt60	
+	
+# sentence level graph:	
+(s60	
+	
+# alignment:	
+	
+# document level graph:	
+(s60s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt61	
+	
+# sentence level graph:	
+(s61	
+	
+# alignment:	
+	
+# document level graph:	
+(s61s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt62	
+	
+# sentence level graph:	
+(s62	
+	
+# alignment:	
+	
+# document level graph:	
+(s62s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt63	
+	
+# sentence level graph:	
+(s63	
+	
+# alignment:	
+	
+# document level graph:	
+(s63s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt64	
+	
+# sentence level graph:	
+(s64	
+	
+# alignment:	
+	
+# document level graph:	
+(s64s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt65	
+	
+# sentence level graph:	
+(s65	
+	
+# alignment:	
+	
+# document level graph:	
+(s65s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt66	
+	
+# sentence level graph:	
+(s66	
+	
+# alignment:	
+	
+# document level graph:	
+(s66s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt67	
+	
+# sentence level graph:	
+(s67	
+	
+# alignment:	
+	
+# document level graph:	
+(s67s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt68	
+	
+# sentence level graph:	
+(s68	
+	
+# alignment:	
+	
+# document level graph:	
+(s68s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt69	
+	
+# sentence level graph:	
+(s69	
+	
+# alignment:	
+	
+# document level graph:	
+(s69s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt70	
+	
+# sentence level graph:	
+(s70	
+	
+# alignment:	
+	
+# document level graph:	
+(s70s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt71	
+	
+# sentence level graph:	
+(s71	
+	
+# alignment:	
+	
+# document level graph:	
+(s71s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt72	
+	
+# sentence level graph:	
+(s72	
+	
+# alignment:	
+	
+# document level graph:	
+(s72s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt73	
+	
+# sentence level graph:	
+(s73	
+	
+# alignment:	
+	
+# document level graph:	
+(s73s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt74	
+	
+# sentence level graph:	
+(s74	
+	
+# alignment:	
+	
+# document level graph:	
+(s74s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt75	
+	
+# sentence level graph:	
+(s75	
+	
+# alignment:	
+	
+# document level graph:	
+(s75s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt76	
+	
+# sentence level graph:	
+(s76	
+	
+# alignment:	
+	
+# document level graph:	
+(s76s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt77	
+	
+# sentence level graph:	
+(s77	
+	
+# alignment:	
+	
+# document level graph:	
+(s77s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt78	
+	
+# sentence level graph:	
+(s78	
+	
+# alignment:	
+	
+# document level graph:	
+(s78s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt79	
+	
+# sentence level graph:	
+(s79	
+	
+# alignment:	
+	
+# document level graph:	
+(s79s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt80	
+	
+# sentence level graph:	
+(s80	
+	
+# alignment:	
+	
+# document level graph:	
+(s80s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt81	
+	
+# sentence level graph:	
+(s81	
+	
+# alignment:	
+	
+# document level graph:	
+(s81s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt82	
+	
+# sentence level graph:	
+(s82	
+	
+# alignment:	
+	
+# document level graph:	
+(s82s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt83	
+	
+# sentence level graph:	
+(s83	
+	
+# alignment:	
+	
+# document level graph:	
+(s83s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt84	
+	
+# sentence level graph:	
+(s84	
+	
+# alignment:	
+	
+# document level graph:	
+(s84s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt85	
+	
+# sentence level graph:	
+(s85	
+	
+# alignment:	
+	
+# document level graph:	
+(s85s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt86	
+	
+# sentence level graph:	
+(s86	
+	
+# alignment:	
+	
+# document level graph:	
+(s86s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt87	
+	
+# sentence level graph:	
+(s87	
+	
+# alignment:	
+	
+# document level graph:	
+(s87s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt88	
+	
+# sentence level graph:	
+(s88	
+	
+# alignment:	
+	
+# document level graph:	
+(s88s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt89	
+	
+# sentence level graph:	
+(s89	
+	
+# alignment:	
+	
+# document level graph:	
+(s89s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt90	
+	
+# sentence level graph:	
+(s90	
+	
+# alignment:	
+	
+# document level graph:	
+(s90s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt91	
+	
+# sentence level graph:	
+(s91	
+	
+# alignment:	
+	
+# document level graph:	
+(s91s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt92	
+	
+# sentence level graph:	
+(s92	
+	
+# alignment:	
+	
+# document level graph:	
+(s92s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt93	
+	
+# sentence level graph:	
+(s93	
+	
+# alignment:	
+	
+# document level graph:	
+(s93s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt94	
+	
+# sentence level graph:	
+(s94	
+	
+# alignment:	
+	
+# document level graph:	
+(s94s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt95	
+	
+# sentence level graph:	
+(s95	
+	
+# alignment:	
+	
+# document level graph:	
+(s95s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt96	
+	
+# sentence level graph:	
+(s96	
+	
+# alignment:	
+	
+# document level graph:	
+(s96s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt97	
+	
+# sentence level graph:	
+(s97	
+	
+# alignment:	
+	
+# document level graph:	
+(s97s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt98	
+	
+# sentence level graph:	
+(s98	
+	
+# alignment:	
+	
+# document level graph:	
+(s98s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt99	
+	
+# sentence level graph:	
+(s99	
+	
+# alignment:	
+	
+# document level graph:	
+(s99s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt100	
+	
+# sentence level graph:	
+(s100	
+	
+# alignment:	
+	
+# document level graph:	
+(s100s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt101	
+	
+# sentence level graph:	
+(s101	
+	
+# alignment:	
+	
+# document level graph:	
+(s101s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt102	
+	
+# sentence level graph:	
+(s102	
+	
+# alignment:	
+	
+# document level graph:	
+(s102s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt103	
+	
+# sentence level graph:	
+(s103	
+	
+# alignment:	
+	
+# document level graph:	
+(s103s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt104	
+	
+# sentence level graph:	
+(s104	
+	
+# alignment:	
+	
+# document level graph:	
+(s104s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt105	
+	
+# sentence level graph:	
+(s105	
+	
+# alignment:	
+	
+# document level graph:	
+(s105s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt106	
+	
+# sentence level graph:	
+(s106	
+	
+# alignment:	
+	
+# document level graph:	
+(s106s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt107	
+	
+# sentence level graph:	
+(s107	
+	
+# alignment:	
+	
+# document level graph:	
+(s107s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt108	
+	
+# sentence level graph:	
+(s108	
+	
+# alignment:	
+	
+# document level graph:	
+(s108s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt109	
+	
+# sentence level graph:	
+(s109	
+	
+# alignment:	
+	
+# document level graph:	
+(s109s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt110	
+	
+# sentence level graph:	
+(s110	
+	
+# alignment:	
+	
+# document level graph:	
+(s110s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt111	
+	
+# sentence level graph:	
+(s111	
+	
+# alignment:	
+	
+# document level graph:	
+(s111s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt112	
+	
+# sentence level graph:	
+(s112	
+	
+# alignment:	
+	
+# document level graph:	
+(s112s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt113	
+	
+# sentence level graph:	
+(s113	
+	
+# alignment:	
+	
+# document level graph:	
+(s113s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt114	
+	
+# sentence level graph:	
+(s114	
+	
+# alignment:	
+	
+# document level graph:	
+(s114s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt115	
+	
+# sentence level graph:	
+(s115	
+	
+# alignment:	
+	
+# document level graph:	
+(s115s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt116	
+	
+# sentence level graph:	
+(s116	
+	
+# alignment:	
+	
+# document level graph:	
+(s116s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt117	
+	
+# sentence level graph:	
+(s117	
+	
+# alignment:	
+	
+# document level graph:	
+(s117s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt118	
+	
+# sentence level graph:	
+(s118	
+	
+# alignment:	
+	
+# document level graph:	
+(s118s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt119	
+	
+# sentence level graph:	
+(s119	
+	
+# alignment:	
+	
+# document level graph:	
+(s119s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt120	
+	
+# sentence level graph:	
+(s120	
+	
+# alignment:	
+	
+# document level graph:	
+(s120s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt121	
+	
+# sentence level graph:	
+(s121	
+	
+# alignment:	
+	
+# document level graph:	
+(s121s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt122	
+	
+# sentence level graph:	
+(s122	
+	
+# alignment:	
+	
+# document level graph:	
+(s122s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt123	
+	
+# sentence level graph:	
+(s123	
+	
+# alignment:	
+	
+# document level graph:	
+(s123s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt124	
+	
+# sentence level graph:	
+(s124	
+	
+# alignment:	
+	
+# document level graph:	
+(s124s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt125	
+	
+# sentence level graph:	
+(s125	
+	
+# alignment:	
+	
+# document level graph:	
+(s125s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt126	
+	
+# sentence level graph:	
+(s126	
+	
+# alignment:	
+	
+# document level graph:	
+(s126s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt127	
+	
+# sentence level graph:	
+(s127	
+	
+# alignment:	
+	
+# document level graph:	
+(s127s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt128	
+	
+# sentence level graph:	
+(s128	
+	
+# alignment:	
+	
+# document level graph:	
+(s128s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt129	
+	
+# sentence level graph:	
+(s129	
+	
+# alignment:	
+	
+# document level graph:	
+(s129s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt130	
+	
+# sentence level graph:	
+(s130	
+	
+# alignment:	
+	
+# document level graph:	
+(s130s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt131	
+	
+# sentence level graph:	
+(s131	
+	
+# alignment:	
+	
+# document level graph:	
+(s131s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt132	
+	
+# sentence level graph:	
+(s132	
+	
+# alignment:	
+	
+# document level graph:	
+(s132s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt133	
+	
+# sentence level graph:	
+(s133	
+	
+# alignment:	
+	
+# document level graph:	
+(s133s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt134	
+	
+# sentence level graph:	
+(s134	
+	
+# alignment:	
+	
+# document level graph:	
+(s134s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt135	
+	
+# sentence level graph:	
+(s135	
+	
+# alignment:	
+	
+# document level graph:	
+(s135s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt136	
+	
+# sentence level graph:	
+(s136	
+	
+# alignment:	
+	
+# document level graph:	
+(s136s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt137	
+	
+# sentence level graph:	
+(s137	
+	
+# alignment:	
+	
+# document level graph:	
+(s137s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt138	
+	
+# sentence level graph:	
+(s138	
+	
+# alignment:	
+	
+# document level graph:	
+(s138s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt139	
+	
+# sentence level graph:	
+(s139	
+	
+# alignment:	
+	
+# document level graph:	
+(s139s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt140	
+	
+# sentence level graph:	
+(s140	
+	
+# alignment:	
+	
+# document level graph:	
+(s140s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt141	
+	
+# sentence level graph:	
+(s141	
+	
+# alignment:	
+	
+# document level graph:	
+(s141s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt142	
+	
+# sentence level graph:	
+(s142	
+	
+# alignment:	
+	
+# document level graph:	
+(s142s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt143	
+	
+# sentence level graph:	
+(s143	
+	
+# alignment:	
+	
+# document level graph:	
+(s143s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt144	
+	
+# sentence level graph:	
+(s144	
+	
+# alignment:	
+	
+# document level graph:	
+(s144s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt145	
+	
+# sentence level graph:	
+(s145	
+	
+# alignment:	
+	
+# document level graph:	
+(s145s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt146	
+	
+# sentence level graph:	
+(s146	
+	
+# alignment:	
+	
+# document level graph:	
+(s146s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt147	
+	
+# sentence level graph:	
+(s147	
+	
+# alignment:	
+	
+# document level graph:	
+(s147s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt148	
+	
+# sentence level graph:	
+(s148	
+	
+# alignment:	
+	
+# document level graph:	
+(s148s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt149	
+	
+# sentence level graph:	
+(s149	
+	
+# alignment:	
+	
+# document level graph:	
+(s149s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt150	
+	
+# sentence level graph:	
+(s150	
+	
+# alignment:	
+	
+# document level graph:	
+(s150s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt151	
+	
+# sentence level graph:	
+(s151	
+	
+# alignment:	
+	
+# document level graph:	
+(s151s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt152	
+	
+# sentence level graph:	
+(s152	
+	
+# alignment:	
+	
+# document level graph:	
+(s152s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt153	
+	
+# sentence level graph:	
+(s153	
+	
+# alignment:	
+	
+# document level graph:	
+(s153s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt154	
+	
+# sentence level graph:	
+(s154	
+	
+# alignment:	
+	
+# document level graph:	
+(s154s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt155	
+	
+# sentence level graph:	
+(s155	
+	
+# alignment:	
+	
+# document level graph:	
+(s155s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt156	
+	
+# sentence level graph:	
+(s156	
+	
+# alignment:	
+	
+# document level graph:	
+(s156s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt157	
+	
+# sentence level graph:	
+(s157	
+	
+# alignment:	
+	
+# document level graph:	
+(s157s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt158	
+	
+# sentence level graph:	
+(s158	
+	
+# alignment:	
+	
+# document level graph:	
+(s158s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt159	
+	
+# sentence level graph:	
+(s159	
+	
+# alignment:	
+	
+# document level graph:	
+(s159s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt160	
+	
+# sentence level graph:	
+(s160	
+	
+# alignment:	
+	
+# document level graph:	
+(s160s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt161	
+	
+# sentence level graph:	
+(s161	
+	
+# alignment:	
+	
+# document level graph:	
+(s161s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt162	
+	
+# sentence level graph:	
+(s162	
+	
+# alignment:	
+	
+# document level graph:	
+(s162s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt163	
+	
+# sentence level graph:	
+(s163	
+	
+# alignment:	
+	
+# document level graph:	
+(s163s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt164	
+	
+# sentence level graph:	
+(s164	
+	
+# alignment:	
+	
+# document level graph:	
+(s164s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt165	
+	
+# sentence level graph:	
+(s165	
+	
+# alignment:	
+	
+# document level graph:	
+(s165s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt166	
+	
+# sentence level graph:	
+(s166	
+	
+# alignment:	
+	
+# document level graph:	
+(s166s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt167	
+	
+# sentence level graph:	
+(s167	
+	
+# alignment:	
+	
+# document level graph:	
+(s167s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt168	
+	
+# sentence level graph:	
+(s168	
+	
+# alignment:	
+	
+# document level graph:	
+(s168s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt169	
+	
+# sentence level graph:	
+(s169	
+	
+# alignment:	
+	
+# document level graph:	
+(s169s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt170	
+	
+# sentence level graph:	
+(s170	
+	
+# alignment:	
+	
+# document level graph:	
+(s170s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt171	
+	
+# sentence level graph:	
+(s171	
+	
+# alignment:	
+	
+# document level graph:	
+(s171s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt172	
+	
+# sentence level graph:	
+(s172	
+	
+# alignment:	
+	
+# document level graph:	
+(s172s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt173	
+	
+# sentence level graph:	
+(s173	
+	
+# alignment:	
+	
+# document level graph:	
+(s173s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt174	
+	
+# sentence level graph:	
+(s174	
+	
+# alignment:	
+	
+# document level graph:	
+(s174s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt175	
+	
+# sentence level graph:	
+(s175	
+	
+# alignment:	
+	
+# document level graph:	
+(s175s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt176	
+	
+# sentence level graph:	
+(s176	
+	
+# alignment:	
+	
+# document level graph:	
+(s176s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt177	
+	
+# sentence level graph:	
+(s177	
+	
+# alignment:	
+	
+# document level graph:	
+(s177s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt178	
+	
+# sentence level graph:	
+(s178	
+	
+# alignment:	
+	
+# document level graph:	
+(s178s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt179	
+	
+# sentence level graph:	
+(s179	
+	
+# alignment:	
+	
+# document level graph:	
+(s179s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt180	
+	
+# sentence level graph:	
+(s180	
+	
+# alignment:	
+	
+# document level graph:	
+(s180s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt181	
+	
+# sentence level graph:	
+(s181	
+	
+# alignment:	
+	
+# document level graph:	
+(s181s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt182	
+	
+# sentence level graph:	
+(s182	
+	
+# alignment:	
+	
+# document level graph:	
+(s182s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt183	
+	
+# sentence level graph:	
+(s183	
+	
+# alignment:	
+	
+# document level graph:	
+(s183s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt184	
+	
+# sentence level graph:	
+(s184	
+	
+# alignment:	
+	
+# document level graph:	
+(s184s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt185	
+	
+# sentence level graph:	
+(s185	
+	
+# alignment:	
+	
+# document level graph:	
+(s185s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt186	
+	
+# sentence level graph:	
+(s186	
+	
+# alignment:	
+	
+# document level graph:	
+(s186s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt187	
+	
+# sentence level graph:	
+(s187	
+	
+# alignment:	
+	
+# document level graph:	
+(s187s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt188	
+	
+# sentence level graph:	
+(s188	
+	
+# alignment:	
+	
+# document level graph:	
+(s188s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt189	
+	
+# sentence level graph:	
+(s189	
+	
+# alignment:	
+	
+# document level graph:	
+(s189s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt190	
+	
+# sentence level graph:	
+(s190	
+	
+# alignment:	
+	
+# document level graph:	
+(s190s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt191	
+	
+# sentence level graph:	
+(s191	
+	
+# alignment:	
+	
+# document level graph:	
+(s191s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt192	
+	
+# sentence level graph:	
+(s192	
+	
+# alignment:	
+	
+# document level graph:	
+(s192s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt193	
+	
+# sentence level graph:	
+(s193	
+	
+# alignment:	
+	
+# document level graph:	
+(s193s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt194	
+	
+# sentence level graph:	
+(s194	
+	
+# alignment:	
+	
+# document level graph:	
+(s194s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt195	
+	
+# sentence level graph:	
+(s195	
+	
+# alignment:	
+	
+# document level graph:	
+(s195s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt196	
+	
+# sentence level graph:	
+(s196	
+	
+# alignment:	
+	
+# document level graph:	
+(s196s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt197	
+	
+# sentence level graph:	
+(s197	
+	
+# alignment:	
+	
+# document level graph:	
+(s197s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt198	
+	
+# sentence level graph:	
+(s198	
+	
+# alignment:	
+	
+# document level graph:	
+(s198s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt199	
+	
+# sentence level graph:	
+(s199	
+	
+# alignment:	
+	
+# document level graph:	
+(s199s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt200	
+	
+# sentence level graph:	
+(s200	
+	
+# alignment:	
+	
+# document level graph:	
+(s200s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt201	
+	
+# sentence level graph:	
+(s201	
+	
+# alignment:	
+	
+# document level graph:	
+(s201s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt202	
+	
+# sentence level graph:	
+(s202	
+	
+# alignment:	
+	
+# document level graph:	
+(s202s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt203	
+	
+# sentence level graph:	
+(s203	
+	
+# alignment:	
+	
+# document level graph:	
+(s203s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt204	
+	
+# sentence level graph:	
+(s204	
+	
+# alignment:	
+	
+# document level graph:	
+(s204s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt205	
+	
+# sentence level graph:	
+(s205	
+	
+# alignment:	
+	
+# document level graph:	
+(s205s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt206	
+	
+# sentence level graph:	
+(s206	
+	
+# alignment:	
+	
+# document level graph:	
+(s206s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt207	
+	
+# sentence level graph:	
+(s207	
+	
+# alignment:	
+	
+# document level graph:	
+(s207s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt208	
+	
+# sentence level graph:	
+(s208	
+	
+# alignment:	
+	
+# document level graph:	
+(s208s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt209	
+	
+# sentence level graph:	
+(s209	
+	
+# alignment:	
+	
+# document level graph:	
+(s209s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt210	
+	
+# sentence level graph:	
+(s210	
+	
+# alignment:	
+	
+# document level graph:	
+(s210s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt211	
+	
+# sentence level graph:	
+(s211	
+	
+# alignment:	
+	
+# document level graph:	
+(s211s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt212	
+	
+# sentence level graph:	
+(s212	
+	
+# alignment:	
+	
+# document level graph:	
+(s212s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt213	
+	
+# sentence level graph:	
+(s213	
+	
+# alignment:	
+	
+# document level graph:	
+(s213s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt214	
+	
+# sentence level graph:	
+(s214	
+	
+# alignment:	
+	
+# document level graph:	
+(s214s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt215	
+	
+# sentence level graph:	
+(s215	
+	
+# alignment:	
+	
+# document level graph:	
+(s215s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt216	
+	
+# sentence level graph:	
+(s216	
+	
+# alignment:	
+	
+# document level graph:	
+(s216s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt217	
+	
+# sentence level graph:	
+(s217	
+	
+# alignment:	
+	
+# document level graph:	
+(s217s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt218	
+	
+# sentence level graph:	
+(s218	
+	
+# alignment:	
+	
+# document level graph:	
+(s218s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt219	
+	
+# sentence level graph:	
+(s219	
+	
+# alignment:	
+	
+# document level graph:	
+(s219s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt220	
+	
+# sentence level graph:	
+(s220	
+	
+# alignment:	
+	
+# document level graph:	
+(s220s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt221	
+	
+# sentence level graph:	
+(s221	
+	
+# alignment:	
+	
+# document level graph:	
+(s221s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt222	
+	
+# sentence level graph:	
+(s222	
+	
+# alignment:	
+	
+# document level graph:	
+(s222s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt223	
+	
+# sentence level graph:	
+(s223	
+	
+# alignment:	
+	
+# document level graph:	
+(s223s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt224	
+	
+# sentence level graph:	
+(s224	
+	
+# alignment:	
+	
+# document level graph:	
+(s224s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt225	
+	
+# sentence level graph:	
+(s225	
+	
+# alignment:	
+	
+# document level graph:	
+(s225s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt226	
+	
+# sentence level graph:	
+(s226	
+	
+# alignment:	
+	
+# document level graph:	
+(s226s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt227	
+	
+# sentence level graph:	
+(s227	
+	
+# alignment:	
+	
+# document level graph:	
+(s227s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt228	
+	
+# sentence level graph:	
+(s228	
+	
+# alignment:	
+	
+# document level graph:	
+(s228s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt229	
+	
+# sentence level graph:	
+(s229	
+	
+# alignment:	
+	
+# document level graph:	
+(s229s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt230	
+	
+# sentence level graph:	
+(s230	
+	
+# alignment:	
+	
+# document level graph:	
+(s230s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt231	
+	
+# sentence level graph:	
+(s231	
+	
+# alignment:	
+	
+# document level graph:	
+(s231s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt232	
+	
+# sentence level graph:	
+(s232	
+	
+# alignment:	
+	
+# document level graph:	
+(s232s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt233	
+	
+# sentence level graph:	
+(s233	
+	
+# alignment:	
+	
+# document level graph:	
+(s233s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt234	
+	
+# sentence level graph:	
+(s234	
+	
+# alignment:	
+	
+# document level graph:	
+(s234s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt235	
+	
+# sentence level graph:	
+(s235	
+	
+# alignment:	
+	
+# document level graph:	
+(s235s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt236	
+	
+# sentence level graph:	
+(s236	
+	
+# alignment:	
+	
+# document level graph:	
+(s236s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt237	
+	
+# sentence level graph:	
+(s237	
+	
+# alignment:	
+	
+# document level graph:	
+(s237s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt238	
+	
+# sentence level graph:	
+(s238	
+	
+# alignment:	
+	
+# document level graph:	
+(s238s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt239	
+	
+# sentence level graph:	
+(s239	
+	
+# alignment:	
+	
+# document level graph:	
+(s239s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt240	
+	
+# sentence level graph:	
+(s240	
+	
+# alignment:	
+	
+# document level graph:	
+(s240s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt241	
+	
+# sentence level graph:	
+(s241	
+	
+# alignment:	
+	
+# document level graph:	
+(s241s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt242	
+	
+# sentence level graph:	
+(s242	
+	
+# alignment:	
+	
+# document level graph:	
+(s242s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt243	
+	
+# sentence level graph:	
+(s243	
+	
+# alignment:	
+	
+# document level graph:	
+(s243s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt244	
+	
+# sentence level graph:	
+(s244	
+	
+# alignment:	
+	
+# document level graph:	
+(s244s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt245	
+	
+# sentence level graph:	
+(s245	
+	
+# alignment:	
+	
+# document level graph:	
+(s245s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt246	
+	
+# sentence level graph:	
+(s246	
+	
+# alignment:	
+	
+# document level graph:	
+(s246s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt247	
+	
+# sentence level graph:	
+(s247	
+	
+# alignment:	
+	
+# document level graph:	
+(s247s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt248	
+	
+# sentence level graph:	
+(s248	
+	
+# alignment:	
+	
+# document level graph:	
+(s248s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt249	
+	
+# sentence level graph:	
+(s249	
+	
+# alignment:	
+	
+# document level graph:	
+(s249s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt250	
+	
+# sentence level graph:	
+(s250	
+	
+# alignment:	
+	
+# document level graph:	
+(s250s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt251	
+	
+# sentence level graph:	
+(s251	
+	
+# alignment:	
+	
+# document level graph:	
+(s251s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt252	
+	
+# sentence level graph:	
+(s252	
+	
+# alignment:	
+	
+# document level graph:	
+(s252s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt253	
+	
+# sentence level graph:	
+(s253	
+	
+# alignment:	
+	
+# document level graph:	
+(s253s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt254	
+	
+# sentence level graph:	
+(s254	
+	
+# alignment:	
+	
+# document level graph:	
+(s254s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt255	
+	
+# sentence level graph:	
+(s255	
+	
+# alignment:	
+	
+# document level graph:	
+(s255s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt256	
+	
+# sentence level graph:	
+(s256	
+	
+# alignment:	
+	
+# document level graph:	
+(s256s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt257	
+	
+# sentence level graph:	
+(s257	
+	
+# alignment:	
+	
+# document level graph:	
+(s257s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt258	
+	
+# sentence level graph:	
+(s258	
+	
+# alignment:	
+	
+# document level graph:	
+(s258s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt259	
+	
+# sentence level graph:	
+(s259	
+	
+# alignment:	
+	
+# document level graph:	
+(s259s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt260	
+	
+# sentence level graph:	
+(s260	
+	
+# alignment:	
+	
+# document level graph:	
+(s260s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt261	
+	
+# sentence level graph:	
+(s261	
+	
+# alignment:	
+	
+# document level graph:	
+(s261s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt262	
+	
+# sentence level graph:	
+(s262	
+	
+# alignment:	
+	
+# document level graph:	
+(s262s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt263	
+	
+# sentence level graph:	
+(s263	
+	
+# alignment:	
+	
+# document level graph:	
+(s263s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt264	
+	
+# sentence level graph:	
+(s264	
+	
+# alignment:	
+	
+# document level graph:	
+(s264s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt265	
+	
+# sentence level graph:	
+(s265	
+	
+# alignment:	
+	
+# document level graph:	
+(s265s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt266	
+	
+# sentence level graph:	
+(s266	
+	
+# alignment:	
+	
+# document level graph:	
+(s266s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt267	
+	
+# sentence level graph:	
+(s267	
+	
+# alignment:	
+	
+# document level graph:	
+(s267s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt268	
+	
+# sentence level graph:	
+(s268	
+	
+# alignment:	
+	
+# document level graph:	
+(s268s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt269	
+	
+# sentence level graph:	
+(s269	
+	
+# alignment:	
+	
+# document level graph:	
+(s269s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt270	
+	
+# sentence level graph:	
+(s270	
+	
+# alignment:	
+	
+# document level graph:	
+(s270s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt271	
+	
+# sentence level graph:	
+(s271	
+	
+# alignment:	
+	
+# document level graph:	
+(s271s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt272	
+	
+# sentence level graph:	
+(s272	
+	
+# alignment:	
+	
+# document level graph:	
+(s272s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt273	
+	
+# sentence level graph:	
+(s273	
+	
+# alignment:	
+	
+# document level graph:	
+(s273s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt274	
+	
+# sentence level graph:	
+(s274	
+	
+# alignment:	
+	
+# document level graph:	
+(s274s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt275	
+	
+# sentence level graph:	
+(s275	
+	
+# alignment:	
+	
+# document level graph:	
+(s275s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt276	
+	
+# sentence level graph:	
+(s276	
+	
+# alignment:	
+	
+# document level graph:	
+(s276s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt277	
+	
+# sentence level graph:	
+(s277	
+	
+# alignment:	
+	
+# document level graph:	
+(s277s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt278	
+	
+# sentence level graph:	
+(s278	
+	
+# alignment:	
+	
+# document level graph:	
+(s278s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt279	
+	
+# sentence level graph:	
+(s279	
+	
+# alignment:	
+	
+# document level graph:	
+(s279s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt280	
+	
+# sentence level graph:	
+(s280	
+	
+# alignment:	
+	
+# document level graph:	
+(s280s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt281	
+	
+# sentence level graph:	
+(s281	
+	
+# alignment:	
+	
+# document level graph:	
+(s281s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt282	
+	
+# sentence level graph:	
+(s282	
+	
+# alignment:	
+	
+# document level graph:	
+(s282s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt283	
+	
+# sentence level graph:	
+(s283	
+	
+# alignment:	
+	
+# document level graph:	
+(s283s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt284	
+	
+# sentence level graph:	
+(s284	
+	
+# alignment:	
+	
+# document level graph:	
+(s284s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt285	
+	
+# sentence level graph:	
+(s285	
+	
+# alignment:	
+	
+# document level graph:	
+(s285s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt286	
+	
+# sentence level graph:	
+(s286	
+	
+# alignment:	
+	
+# document level graph:	
+(s286s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt287	
+	
+# sentence level graph:	
+(s287	
+	
+# alignment:	
+	
+# document level graph:	
+(s287s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt288	
+	
+# sentence level graph:	
+(s288	
+	
+# alignment:	
+	
+# document level graph:	
+(s288s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt289	
+	
+# sentence level graph:	
+(s289	
+	
+# alignment:	
+	
+# document level graph:	
+(s289s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt290	
+	
+# sentence level graph:	
+(s290	
+	
+# alignment:	
+	
+# document level graph:	
+(s290s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt291	
+	
+# sentence level graph:	
+(s291	
+	
+# alignment:	
+	
+# document level graph:	
+(s291s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt292	
+	
+# sentence level graph:	
+(s292	
+	
+# alignment:	
+	
+# document level graph:	
+(s292s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt293	
+	
+# sentence level graph:	
+(s293	
+	
+# alignment:	
+	
+# document level graph:	
+(s293s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt294	
+	
+# sentence level graph:	
+(s294	
+	
+# alignment:	
+	
+# document level graph:	
+(s294s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt295	
+	
+# sentence level graph:	
+(s295	
+	
+# alignment:	
+	
+# document level graph:	
+(s295s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt296	
+	
+# sentence level graph:	
+(s296	
+	
+# alignment:	
+	
+# document level graph:	
+(s296s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt297	
+	
+# sentence level graph:	
+(s297	
+	
+# alignment:	
+	
+# document level graph:	
+(s297s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt298	
+	
+# sentence level graph:	
+(s298	
+	
+# alignment:	
+	
+# document level graph:	
+(s298s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt299	
+	
+# sentence level graph:	
+(s299	
+	
+# alignment:	
+	
+# document level graph:	
+(s299s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+# :: snt300	
+	
+# sentence level graph:	
+(s300	
+	
+# alignment:	
+	
+# document level graph:	
+(s300s0 / sentence	
+	:coreference (())
+	:temporal (())
+	:modal (()))
+	
+	
